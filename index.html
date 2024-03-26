@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white py-4 fixed top-0 left-0 right-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo or website title -->
+            <a href="#" class="text-xl font-bold">Nitin M. Mane</a>
+
+            <!-- Mobile menu button -->
+            <button class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <!-- Menu items -->
+            <ul class="hidden md:flex md:space-x-4">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#profiles" class="hover:text-gray-300">Profiles</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gray-900 text-white py-12 md:py-20 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <!-- Add your image here -->
+                <img src="coder.jpg" alt="Full Stack Developer" class="w-full md:w-auto md:max-w-lg mx-auto md:mx-0 rounded-lg shadow-lg object-cover object-center">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h1 class="text-3xl md:text-5xl font-bold mb-4">Welcome to my Full Stack Developer Portfolio!</h1>
+                <p class="text-base md:text-xl mb-8">Building Innovative Solutions for the Digital World..!</p>
+                <a href="#contact"
+                    class="bg-green-500 hover:bg-yellow-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold shadow-md hover:shadow-lg transition duration-300">Hire
+                    Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profiles Section -->
+    <section id="profiles" class="py-20 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">Profiles</h2>
+            <!-- Profile cards go here -->
+            <!-- Example: -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">LinkedIn</h3>
+                    <p class="text-gray-700 mb-4">Connect with me on LinkedIn to view my professional profile.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Profile</a>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">GitHub</h3>
+                    <p class="text-gray-700 mb-4">Explore my projects and contributions on GitHub.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Profile</a>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Stack Overflow</h3>
+                    <p class="text-gray-700 mb-4">Visit my Stack Overflow profile to see my Q&A activity.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+
+    <!-- Profiles Section -->
+    <section id="profiles" class="py-20 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8">Profiles</h2>
+            <!-- Profile cards go here -->
+            <!-- Example: -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">LinkedIn</h3>
+                    <p class="text-gray-700 mb-4">Connect with me on LinkedIn to view my professional profile.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Profile</a>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">GitHub</h3>
+                    <p class="text-gray-700 mb-4">Explore my projects and contributions on GitHub.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Profile</a>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Stack Overflow</h3>
+                    <p class="text-gray-700 mb-4">Visit my Stack Overflow profile to see my Q&A activity.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8">Projects</h2>
+            <!-- Project cards go here -->
+            <!-- Example: -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Project 1</h3>
+                    <p class="text-gray-700 mb-4">Description of Project 1.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Project 2</h3>
+                    <p class="text-gray-700 mb-4">Description of Project 2.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Project 3</h3>
+                    <p class="text-gray-700 mb-4">Description of Project 3.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-800 text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8">Contact Me</h2>
+            <p class="mb-8">Feel free to reach out for collaboration or any inquiries.</p>
+            
+            
+            
+            <!-- <form id="contactForm" class="text-gray-800">
+                <input type="text" id="name" placeholder="Your Name" class="block w-full rounded-lg px-4 py-2 mb-4">
+                <input type="email" id="email" placeholder="Your Email" class="block w-full rounded-lg px-4 py-2 mb-4">
+                <textarea id="message" placeholder="Your Message" class="block w-full rounded-lg px-4 py-2 mb-4"></textarea>
+                <button type="button" id="sendMessage" class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Send Message</button>
+            </form> -->
+            <!-- Contact Information -->
+            <div>
+                <h3 class="text-xl md:text-2xl font-bold mb-4">Contact Information</h3>
+                <p class="mb-4">
+                    <span class="font-bold">Email:</span>
+                    <a href="mailto:your.email@example.com" class="text-blue-500 hover:underline">manenitin9555@gmail.com</a>
+                </p>
+                <p class="mb-4">
+                    <span class="font-bold">Phone:</span>
+                    <a href="tel:+11234567890" class="text-blue-500 hover:underline">7821846521</a>
+                </p>
+                <!-- Add any additional contact information here -->
+            </div>
+
+            
+        </div>
+    </section>
+    <section id="about" class="py-20 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">About Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Profile Picture -->
+                <div class="md:flex md:items-center md:justify-center mb-8">
+                    <img src="Nitin.jpeg" alt="Profile Picture" class="rounded-full w-40 h-40 mx-auto md:mx-0">
+                </div>
+                <!-- About Text -->
+                <div>
+                    <p class="mb-4">Hello! My name is Nitin Mane, and I'm a passionate Full Stack Developer with 3 years of experience in building web applications.</p>
+                    <p class="mb-4">I specialize in html,css,javascript,react,next,node,mongoDB,git and I'm proficient in both frontend and backend development.</p>
+                    <p class="mb-4">Throughout my career, I've worked on various projects, ranging from 3years. I enjoy solving complex problems and creating efficient solutions that positively impact users.</p>
+                    <p class="mb-4">I hold a degree in Computer Science from Pune SPPU University and have attended several courses and workshops to continuously enhance my skills.</p>
+                    <p class="mb-4">In my free time, I enjoy to do leetcode.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <div class="container mx-auto">
+            <p>&copy; 2024 Nitin M.Mane. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu toggle -->
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
