@@ -1,3 +1,14 @@
 html{
     scroll-behavior: smooth;
 }
+
+#menuButton svg {
+    transition: transform 0.3s ease;
+}
+#menuButton {
+    padding: 0;
+}
+
+#menuIcon, #crossIcon {
+    margin: 0;
+}

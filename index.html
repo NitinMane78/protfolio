@@ -20,13 +20,19 @@
             <a href="#" class="text-xl font-bold">Nitin M. Mane</a>
 
             <!-- Mobile menu button -->
-            <button class="md:hidden focus:outline-none">
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            <button id="menuButton" class="md:hidden focus:outline-none">
+                <svg id="menuIcon" class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
+                <svg id="crossIcon" class="hidden w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
             </button>
+            
 
             <!-- Menu items -->
             <ul class="hidden md:flex md:space-x-4">
@@ -44,7 +50,7 @@
         <div class="container mx-auto flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 mb-8 md:mb-0">
                 <!-- Add your image here -->
-                <img src="coder.jpg" alt="Full Stack Developer" class="w-full md:w-auto md:max-w-lg mx-auto md:mx-0 rounded-lg shadow-lg object-cover object-center">
+                <img src="image\coder.jpg" alt="Full Stack Developer" class="w-full md:w-auto md:max-w-lg mx-auto md:mx-0 rounded-lg shadow-lg object-cover object-center">
             </div>
             <div class="md:w-1/2 text-center md:text-left">
                 <h1 class="text-3xl md:text-5xl font-bold mb-4">Welcome to my Full Stack Developer Portfolio!</h1>
@@ -175,7 +181,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Profile Picture -->
                 <div class="md:flex md:items-center md:justify-center mb-8">
-                    <img src="Nitin.jpeg" alt="Profile Picture" class="rounded-full w-40 h-40 mx-auto md:mx-0">
+                    <img src="image\Nitin.jpeg" alt="Profile Picture" class="rounded-full w-40 h-40 mx-auto md:mx-0">
                 </div>
                 <!-- About Text -->
                 <div>
